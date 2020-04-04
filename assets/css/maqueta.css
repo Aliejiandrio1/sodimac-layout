@@ -158,25 +158,57 @@ figcaption{
 
 .contenido-centro{
     position: fixed;
-    border:1px solid green;
+    border:1px solid orange;
     top: 112px;
     left: 300px;
     width: 70%;
     padding: 30px;
     margin: 30px;
-    background-color: #eaeaea47;;
+    background-color: #ec7a27d6;
+}
+
+.contenido-centro h3{
+    font-size: 27px;
 }
 
 section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
 }
 
 article{
-    background-color: #9ef;
     padding: 3px;
     margin: 5px;
     width: 40%;
 
 }
+
+
+
+/******Media Query*******/
+
+@media only screen and (max-width: 500px){
+    .menu-contenido-info figure,img,h3,span,hr{
+        display: none;
+    }
+}
+
+.menu-contenido{
+    width: 100px;
+}
+
+.header{
+    display: none;
+}
+
+.contenido-centro{
+    left: 70px;
+    margin: 1px;
+    top: 5px;
+    width: 600px;
+    height: 150px;
+    display: flex;
+}
+
