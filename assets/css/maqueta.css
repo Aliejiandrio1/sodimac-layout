@@ -158,17 +158,17 @@ figcaption{
 
 .contenido-centro{
     position: fixed;
-    border:1px solid orange;
+    border:1px solid #ec7a27d6;
     top: 112px;
     left: 300px;
     width: 70%;
-    padding: 30px;
+    padding: 20px;
     margin: 30px;
     background-color: #ec7a27d6;
 }
 
 .contenido-centro h3{
-    font-size: 27px;
+    font-size: 35px;
 }
 
 section{
@@ -189,11 +189,13 @@ article{
 
 /******Media Query*******/
 
-@media only screen and (max-width: 500px){
-    .menu-contenido-info figure,img,h3,span,hr{
+
+@media only screen and (max-width: 800px){
+    
+.menu-contenido-info figure,img,h4,span,hr{
         display: none;
     }
-}
+
 
 .menu-contenido{
     width: 100px;
@@ -204,11 +206,21 @@ article{
 }
 
 .contenido-centro{
-    left: 70px;
+    left: 0px;
     margin: 1px;
-    top: 5px;
-    width: 600px;
+    top: 40px;
+    width: 700px;
     height: 150px;
     display: flex;
 }
 
+.contenido-centro h3{
+    margin-top: 0;
+    padding: 20px;
+    font-size: 50px;
+    margin-left: 90px;
+    width: 5px;
+    height: 2px;
+}
+
+}
